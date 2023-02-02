@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../recursos/images/favicon_compu_ventas.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Compu Ventas</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../recursos/images/favicon_compu_ventas.svg" alt="logo" class="header__logo"></a>
+        <span class="header__marca animate__animated animate__backInDown wow">Compu Ventas</span>
+        <nav>
+            <ul class="header__menuNav">
+                <li><a href="../index.html" class="header__nav__boton">Inicio</a></li>
+                <li><a href="productos.html" class="header__nav__boton">Productos</a></li>
+                <li><a href="crear_pc.html" class="header__nav__boton">Crear mi computadora</a></li>
+                <li><a href="info.html" class="header__nav__boton">Acerca de nosotros</a></li>
+                <li><a href="contacto.html" class="header__menuNav--activo header__nav__boton">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contacto__main__flex">
+        <section>
+            <article class="contacto__article__flex">
+                <h1 class="contacto__article__titulo">Atención al cliente</h1>
+                <p class="contacto__article__parrafo">Hola, Si tenes alguna duda con el servicio no dudes en contactarnos. Gracias!</p>
+                <form class="contacto__article__form" action="#" method="POST">
+                    <input class="contacto__article__nombre" type="text" placeholder="Ingrese su nombre" name="texto">
+                    <input class="contacto__article__telefono" type="number" placeholder="Ingrese su telefono" name="numero">
+                    <input class="contacto__article__email" type="email" placeholder="ingrese su email" name="email">
+                    <textarea class="contacto__article__textArea" name="comentario" cols="21" rows="7" placeholder="Deja tu comentario"></textarea>
+                    <select class="contacto__article__select" name="pais">
+                        <option value="" hidden>Selecione su País</option>
+                        <option value="ARG">Argentina</option>
+                        <option value="MEX">Mexico</option>
+                        <option value="CHI">Chile</option>
+                        <option value="PAR">Paraguay</option>
+                        <option value="PER">Peru</option>
+                        <option value="BRS">Brasil</option>
+                    </select>
+                <div class="contacto__article__div__radio">
+                    <div>Me comunico para comprar un producto <input class="contacto__article__radio" type="radio" value="verdadero" name="radio"></div>
+                    <div>Me comunico por problemas con la pagina <input class="contacto__article__radio" type="radio" value="falso" name="radio"></div>
+                    <div>Me comunico por otro inconveniente <input class="contacto__article__radio" type="radio" value="falso" name="radio"></div> 
+                </div>
+                <div>
+                <input class="contacto__article__enviar" type="submit">
+                <input class="contacto__article__restablecer" type="reset">
+                </div>
+                </form>
+            </article>
+        </section>
+        <aside class="contacto__aside__flex">
+            <img src="../recursos/images/imagen_fondo2.svg" alt="imagen de fondo" class="contacto__aside__imagen">
+        </aside>
+    </main>
+    <footer>
+        <span class="footer__marca animate__animated animate__backInLeft">Compu ventas</span>
+        <p class="footer__parrafo">para mas informacion o algun inconveniente puede comunicarse a traves de nuestras redes sociales o puede rellenar el formulario y nosotros nos comunicaremos con usted.</p>
+        <div class="footer__grid__redes">
+        <a href="http://www.whatsapp.com" class="footer__logo__whatsapp"><img src="../recursos/images/icono_whatsapp.svg" alt="logo"></a>
+        <a href="http://www.instagram.com" class="footer__logo__instagram"><img src="../recursos/images/icono_instagram.svg" alt="logo"></a>
+        <a href="http://www.facebook.com" class="footer__logo__facebook"><img src="../recursos/images/icono_facebook.svg" alt="logo"></a>
+        <a href="http://www.twitter.com" class="footer__logo__twitter"><img src="../recursos/images/icono_twitter.svg" alt="logo"></a>
+        </div>
+    </footer>
+</body>
+<script src="../recursos/js/wow.js"></script>
+<script>
+new WOW().init();
+</script>
+</html>

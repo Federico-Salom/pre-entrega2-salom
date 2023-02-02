@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../recursos/images/favicon_compu_ventas.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Compu Ventas</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../recursos/images/favicon_compu_ventas.svg" alt="logo" class="header__logo"></a>
+        <span class="header__marca animate__animated animate__backInDown">Compu Ventas</span>
+        <nav>
+            <ul class="header__menuNav">
+                <li><a href="../index.html" class="header__nav__boton">Inicio</a></li>
+                <li><a href="productos.html" class="header__nav__boton">Productos</a></li>
+                <li><a href="crear_pc.html" class="header__menuNav--activo header__nav__boton">Crear mi computadora</a></li>
+                <li><a href="info.html" class="header__nav__boton">Acerca de nosotros</a></li>
+                <li><a href="contacto.html" class="header__nav__boton">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="crear_pc__main__flex">
+        <section>
+            <article class="crear_pc__article__flex">
+                <h1 class="crear_pc__article__titulo">Seccion de armado manual de Computadoras</h1>
+                <p class="crear_pc__article__parrafo">Dentro de esta seccion podras buscar y elegir los componentes que prefieras armando una computadora que se adapte a tus necesidades.</p>
+                <img src="../recursos/images/imagen_fondo3.svg" alt="imagen de fondo" class="crear_pc__article__imagen">
+            </article>
+        </section>
+        <aside>
+            <form class="crear_pc__aside__form" action="#" method="POST">
+                <div class="crear_pc__aside__datosUsuario">
+                    <input class="crear_pc__aside__nombre" type="text" placeholder=" Ingrese su nombre" name="texto">
+                    <input class="crear_pc__aside__telefono" type="number" placeholder=" Ingrese su telefono" name="numero">
+                    <input class="crear_pc__aside__email" type="email" placeholder=" Ingrese su email" name="email">
+                </div>
+                <select class="crear_pc__aside__select__pais" name="pais">
+                    <option value="" hidden>Selecione su País</option>
+                    <option value="ARG">Argentina</option>
+                    <option value="MEX">Mexico</option>
+                    <option value="CHI">Chile</option>
+                    <option value="PAR">Paraguay</option>
+                    <option value="PER">Peru</option>
+                    <option value="BRS">Brasil</option>
+                </select>
+            <div class="crear_pc__aside__selectComponentes">
+                <select class="crear_pc__aside__select" name="pais">
+                    <option value="" hidden>Selecione su Placa Madre</option>
+                    <option value="ARG">Placa madre 1</option>
+                    <option value="MEX">Placa madre 2</option>
+                    <option value="CHI">Placa madre 3</option>
+                    <option value="PAR">Placa madre 4</option>
+                </select>
+                <select class="crear_pc__aside__select" name="pais">
+                    <option value="" hidden>Selecione su Procesador</option>
+                    <option value="ARG">Procesador 1</option>
+                    <option value="MEX">Procesador 2</option>
+                    <option value="CHI">Procesador 3</option>
+                    <option value="PAR">Procesador 4</option>
+                </select>
+                <select class="crear_pc__aside__select" name="pais">
+                    <option value="" hidden>Selecione su Ram</option>
+                    <option value="ARG">Ram 1</option>
+                    <option value="MEX">Ram 2</option>
+                    <option value="CHI">Ram 3</option>
+                    <option value="PAR">Ram 4</option>
+                </select>
+                <select class="crear_pc__aside__select" name="pais">
+                    <option value="" hidden>Selecione su Placa de video</option>
+                    <option value="ARG">Placa de video 1</option>
+                    <option value="MEX">Placa de video 2</option>
+                    <option value="CHI">Placa de video 3</option>
+                    <option value="PAR">Placa de video 4</option>
+                </select>
+                <select class="crear_pc__aside__select" name="pais">
+                    <option value="" hidden>Selecione su Fuente de alimentación</option>
+                    <option value="ARG">Fuente de alimentación 1</option>
+                    <option value="MEX">Fuente de alimentación 2</option>
+                    <option value="CHI">Fuente de alimentación 3</option>
+                    <option value="PAR">Fuente de alimentación 4</option>
+                </select>
+                <select class="crear_pc__aside__select" name="pais">
+                    <option value="" hidden>Selecione su Gabinete</option>
+                    <option value="ARG">Gabinete 1</option>
+                    <option value="MEX">Gabinete 2</option>
+                    <option value="CHI">Gabinete 3</option>
+                    <option value="PAR">Gabinete 4</option>
+                </select>
+            </div>
+            <div class="crear_pc__aside__botones">
+                <button class="crear_pc__aside__comprar">Comprar</button>
+                <input class="crear_pc__aside__restablecer" type="reset">
+            </div>
+            </form>
+        </aside>
+    </main>
+    <footer>
+        <span class="footer__marca animate__animated animate__backInLeft">Compu ventas</span>
+        <p class="footer__parrafo">para mas informacion o algun inconveniente puede comunicarse a traves de nuestras redes sociales tocando cualquiera de los iconos o puede dirigirse a la zona de contacto.</p>
+        <div class="footer__grid__redes">
+        <a href="http://www.whatsapp.com" class="footer__logo__whatsapp"><img src="../recursos/images/icono_whatsapp.svg" alt="logo"></a>
+        <a href="http://www.instagram.com" class="footer__logo__instagram"><img src="../recursos/images/icono_instagram.svg" alt="logo"></a>
+        <a href="http://www.facebook.com" class="footer__logo__facebook"><img src="../recursos/images/icono_facebook.svg" alt="logo"></a>
+        <a href="http://www.twitter.com" class="footer__logo__twitter"><img src="../recursos/images/icono_twitter.svg" alt="logo"></a>
+        </div>
+    </footer>
+</body>
+<script src="../recursos/js/wow.js"></script>
+<script>
+new WOW().init();
+</script>
+</html>
