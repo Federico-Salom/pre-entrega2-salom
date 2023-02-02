@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;1,500&family=Roboto:wght@300&display=swap');
 @import 'animate.css';
 
-
 .animate__animated.animate__backInLeft {
     --animate-duration: 2s;
 }
