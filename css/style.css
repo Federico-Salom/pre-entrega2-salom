@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;1,500&family=Roboto:wght@300&display=swap');
 @import 'animate.css';
 
+/* Cambios a Animaciones */
+
 .animate__animated.animate__backInLeft {
     --animate-duration: 2s;
 }
 .animate__animated.animate__backInDown {
     --animate-duration: 2s;
 }
+
+/* Cambios globales */
 
 * {
     margin: 0;
@@ -59,6 +63,7 @@ footer a img{
     font-family: 'Mulish', sans-serif;
     display: flex;
     align-items: center;
+    color: black;
 }
 .header__menuNav a{
     color: black;
@@ -111,6 +116,8 @@ footer a img{
     color: white;
     transition: all 0.2s ease;
 }
+
+/* Cambios al index */
 
 .index__article__grid {
     width: 100%;
@@ -196,6 +203,7 @@ footer a img{
     font-family: 'Mulish', sans-serif;
 }
 
+/* Cambios a Productos */
 
 .productos__main__grid {
     display: grid;
@@ -412,6 +420,8 @@ footer a img{
     grid-area: pendrive1;
 }
 
+/* Cambios a Crear_pc */
+
 .crear_pc__main__flex {
     display: flex;
     align-items: center;
@@ -551,7 +561,7 @@ footer a img{
     height: auto;
 }
 
-
+/* Cambios a Info */
 
 .info__article__titulo {
     width: 45vw;
@@ -583,6 +593,7 @@ footer a img{
 
 }
 
+/* Cambios a Contacto */
 
 .contacto__article__flex {
     display: flex;
@@ -700,7 +711,7 @@ footer a img{
     transition: all 0.2s ease;
 }
 
-
+/* Responsive */
 
 @media (max-width: 1023px) {
     .header__menuNav{
