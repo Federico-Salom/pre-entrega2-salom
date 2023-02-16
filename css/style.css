@@ -11,6 +11,8 @@
 * {
     margin: 0;
     padding: 0;
+    line-height: normal;
+    box-sizing: unset !important;
 }
 
 body {
@@ -48,6 +50,8 @@ footer a img{
     align-items: center;
     justify-content: center;
     width: 35vw;
+    font-family: none;
+    color: black;
 }
 .footer__parrafo {
     margin: 20px;
@@ -72,6 +76,8 @@ footer a img{
     left: 110px;
     font-size: 50px;
     font-style: italic;
+    font-family: none;
+    color: black;
 }
 .header__menuNav--activo{
     font-weight: bold;
